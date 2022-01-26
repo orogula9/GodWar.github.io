@@ -1,0 +1,428 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+
+.navbar {
+    background-color: #000000;
+     height: 60px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 1.2rem;
+     position: sticky;
+     top: 0;
+     z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    z-index: 1;
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.img-logo {
+    display: flex;
+    padding-left: 50%;
+}
+
+.fa-gem{
+    margin-right: 0.5rem;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+.navbar__item {
+    height: 80px;
+}
+
+.navbar__links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    
+}
+.navbar__links:active {
+    transform: scale(0.98) ;
+}
+
+
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    height: 100%;
+}
+.main-box {
+    display: flex;
+    
+}
+
+
+.filler {
+    flex: 1;
+    
+}
+.card {
+    flex: 1;
+    width: 800px;
+    height: 800px;
+    border-radius: 15px;
+    padding-bottom: 200px;
+    
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    height: 50%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #551018;
+    color: #fff;
+    
+
+}
+.button:active {
+    transform: scale(0.98) ;
+}
+
+.button:hover {
+    background:#104605;
+    transition: all 0.3s ease;
+}
+
+.navbar__links:hover {
+    color:#551018;
+    transition: all 0.3s ease;
+}
+
+/* Hero Selection CSS */
+
+
+.main_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 60vh;
+    background-color: rgb(131, 16, 16) ;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+    
+}
+
+
+.main__content p {
+    margin-top: 0.3rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.main__btn {
+    font-size: 1rem;
+    background-color: #000000;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    color: #255707;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    position: center;
+    transition: all 0.35s;
+    outline: none;
+    margin-left: 32%;
+    
+}
+
+.main__btn a {
+    position: relative;
+    z-index: 2;
+    color:#fff;
+    text-decoration: none;
+}
+
+.main__btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background: #1e5510;
+    transition: all 0,35s;
+    border-radius: 2px;
+}
+
+.main__btn:hover {
+    color:#ffffff;
+}
+
+.main__btn:hover:after {
+    width: 100%;
+}
+
+.main__img--container {
+    text-align: center;
+}
+
+#main__img {
+    height: 80%;
+    width: 80%;
+}
+
+/*Content Selection*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    background-color: #000000;
+    
+   
+}
+
+.container  {
+    display:flex;
+    padding-left: 1000px; 
+    flex-wrap: wrap;
+    justify-content: center;  
+   
+}
+#image1 {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.card {
+    display:block;
+  
+}
+
+.card-image {
+
+    margin-top:6.5%;
+    background-color: #ffffff33 ;
+    box-shadow: 0 0 40px rgba(0, 0, 0.2);
+    width: 75%;
+    border-radius: 10px;
+    margin-left: 15%;
+    
+    
+}
+
+.image1 {
+
+    margin-top:6.5%;
+    background-color: #ffffff00 ;
+   
+    width: 75%;
+    border-radius: 10px;
+    margin-left: 15%;
+    height: auto;
+    
+    
+}
+.filler a {
+    display: flex;
+    background-color:rgb(0, 0, 0) ;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 20px;
+    
+}
+
+.card a {
+    display: flex;
+    background-color:rgb(0, 0, 0) ;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 20px;
+    
+}
+
+.card p {
+    
+    font-size: 1.2rem;
+    
+    
+}
+
+#text1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 20px;
+   
+    
+}
+
+/* sing in  */
+.filler1 {
+    --color-primary: #009579;
+    --color-primary-dark: #007f67;
+    --color-secondary: #252c6a;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    --border-radius: 4px;
+
+    margin: 0;
+   
+    display: flex;
+    
+   
+    font-size: 12px;
+
+
+    
+}
+.filler1  {
+   width: 400px;
+   max-width: 400px;
+   
+   
+   margin: 18rem;
+   padding: 3rem;
+   box-shadow: 0 0 40px rgba(0, 0, 0.2);
+   border-radius: 10px;
+   background: #ffffffab;
+
+
+
+
+
+}
+
+
+.form__message {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.form--hidden {
+    display: none;
+
+}
+
+.form> *:first-child {
+    margin-top: 0;
+}
+.form> *:last-child {
+    margin-bottom: 0;
+}
+.form__title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.form__massage {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form__message--success {
+    color: var(--color-success)
+}
+
+.form__message--error {
+    color:var(--color-error)
+}
+
+.form__input-group {
+   margin-bottom: 1rem; 
+}
+.form__link {
+    padding: 0.75rem;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    transition: backgraund 0.2 , border-color 0,2s;
+}
+
+.form__input:focus {
+   border-color: var(--color-primary);
+   background: white;
+}
+
+.form__input--error {
+    color: var(--color-error);
+    border-color:var(--color-error);
+
+}
+.form__button {
+    margin-bottom: 0.75rem;
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    outline: none;
+    cursor: pointer;
+    background: var(--color-primary);
+}    
+
+.form__button:hover {
+    background: var(--color-primary);
+}
+
+.form__button:active {
+    transform: scale(0.98) ;
+}
+
+.form__text {
+    text-align: center;
+}
+
+.form__link {
+    color:var(--color-secondary);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form__link:hover {
+    text-decoration: underline;
+}
+
